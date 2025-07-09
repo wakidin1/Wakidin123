@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fefefe;
+  color: #1e293b;
+  line-height: 1.7;
+}
+
+header {
+  background: url('https://www.transparenttextures.com/patterns/black-linen.png'), linear-gradient(to right, #1e3a8a, #1e40af);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(30, 58, 138, 0.8);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  z-index: 999;
+}
+
+nav a {
+  color: #facc15;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #facc15;
+  color: #1e3a8a;
+}
+
+section {
+  padding: 80px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.judul {
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+  color: #1e40af;
+}
+
+.beranda { background: #fef3c7; }
+.acara { background: #fde68a; }
+.jadwal { background: #fcd34d; }
+.kontak { background: #fbbf24; }
+
+.kontak-box p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1e40af;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
